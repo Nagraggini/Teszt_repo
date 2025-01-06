@@ -1,0 +1,54 @@
+<!--A táblázatos elrendezés kevésbé rugalmas a modern reszponzív dizájnokhoz. 
+Inkább CSS Grid-et érdemes használni. -->
+
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+    <style>
+        .calculator {
+            display: grid;
+            /*Rácsos elrendezés.*/
+            grid-template-columns: repeat(4, 60px);
+            /*A rács 4 oszlopból áll, mindegyik 60 pixel széles.
+            Ez biztosítja, hogy a számológép 4 oszlopos elrendezésben jelenítse meg a gombokat.*/
+            gap: 10px;
+            justify-content: center;
+            margin: 20px auto;
+        }
+
+        button {
+            width: 60px;
+            height: 60px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calculator">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>/</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>*</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>-</button>
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        <button>+</button>
+    </div>
+
+    <h2><a href="../../40_Project_ideas_for_WD/Main_40_Project_ideas_for_WD.html" target="_self">Back</a></h2>
+</body>
+
+</html>

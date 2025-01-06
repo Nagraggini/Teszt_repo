@@ -1,0 +1,97 @@
+/*Az óra stílusához*/
+#clock {
+    font-family: 'Share Tech Mono', monospace;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+    position: absolute;
+    left: 10px; /* A bal oldaltól mért távolság */
+    top: 10px;  /* A felső résztől mért távolság */
+    text-align: left;
+}
+
+.time {
+    letter-spacing: 0.05em;
+    font-size: 80px;
+    padding: 5px 0;
+}
+
+.date {
+    letter-spacing: 0.1em;
+    font-size: 24px;
+}
+
+.text {
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    padding: 20px 0 0;
+}
+
+    
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 30;
+    background-color: black;
+    /* Ez állítja be az egész oldal háttérszínét */
+}
+
+/* A főcím és alcím stílusai */
+h1 {
+    font-size: 36px;
+    color: #ddcfcf;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Nagybetűs szöveg */
+}
+
+h2 {
+    font-size: 24px;
+    color: #ddcfcf;
+    margin-bottom: 20px;
+    /* Térköz a címek és a gombok között */
+    text-align: left;
+    /*Középre igazítás.*/
+}
+
+a {
+    color: rgb(70, 209, 219);
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(237, 239, 241);
+    text-decoration: none;
+}
+
+/* Media query: Ha a képernyő szélessége kisebb, mint 600px (mobilok) */
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 20px;
+        /* A betűméret */
+        margin-bottom: 15px;
+        /* Kevesebb térköz a címek között */
+    }
+
+    h2 {
+        font-size: 20px;
+        /* A betűméret */
+        margin-bottom: 15px;
+        /* Kevesebb térköz a címek között */
+    }
+
+    p {
+        color: rgb(237, 239, 241);
+        text-decoration: none;
+    }
+
+
+}

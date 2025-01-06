@@ -1,0 +1,5 @@
+A tesztelés 7 alapelve
+
+1. Kimerítő teszt nem lehetséges
+2. A tesztelés a hibák jelenlétét nem a hiányukat jelzi
+3. Korai tesztelés jelentősége
