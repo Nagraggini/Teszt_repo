@@ -6,4 +6,4 @@ A tesztelés 7 alapelve
 4. hibafürtök
 5. Féregirtó paradoxon
 
-Ezt
+Ezt pedig a szerveren. 
